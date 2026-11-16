@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "gas_pass",
+  "version": "1.0.0",
+  "name": "Gas Pass",
+  "description": "An enchantment that makes worn armor emit a comical fart.",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderdevelopment.gaspass.GasPassMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
